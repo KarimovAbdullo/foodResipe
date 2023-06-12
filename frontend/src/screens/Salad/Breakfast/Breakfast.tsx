@@ -3,7 +3,7 @@ import { Space } from 'components/common/Space'
 import Body from 'components/common/typo/Body'
 import useAppDispatch from 'hooks/useAppDispatch'
 import useAppSelector from 'hooks/useAppSelector'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   FlatList,
   Image,
@@ -29,13 +29,25 @@ export interface IData {
 }
 const Breakfast = () => {
   const dispatch = useAppDispatch()
-  const [foods] = useAppSelector(getProduct)
+  const foods = useAppSelector(getProduct)
 
   console.log('data ', foods)
 
   useEffect(() => {
     dispatch(getFood())
   }, [])
+
+  const [data] = useState<IData[]>([
+    {
+      id: 1,
+      name: 'Breakfast white ice',
+      title: 'Easy to make slicng with friut and meet',
+      gr: 650,
+      callory: 799,
+      image: require('assets/images/3.png'),
+      min: 22,
+    },
+  ])
 
   return (
     <View style={styles.main}>
@@ -55,7 +67,7 @@ const Breakfast = () => {
       </View>
 
       <FlatList
-        data={foods}
+        data={data}
         keyExtractor={item => item.id.toString()}
         renderItem={({ item }: { item: IData }) => (
           <TouchableOpacity style={styles.card} activeOpacity={0.6}>
