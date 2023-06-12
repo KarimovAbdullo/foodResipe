@@ -55,3 +55,12 @@ export interface IUserData {
   position: string
   resident: boolean
 }
+
+export interface IFoodData {
+  id: number
+  name: string
+  title: string
+  gr: number
+  callory: number
+  image: string
+}

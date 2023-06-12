@@ -19,4 +19,12 @@ export default {
     regular: 'Montserrat-Regular',
     semiBold: 'Montserrat-SemiBold',
   },
+
+  Maven: {
+    bold: 'MavenPro-Bold',
+    black: 'MavenPro-Black',
+    medium: 'MavenPro-Medium',
+    regular: 'MavenPro-Regular',
+    semiBold: 'MavenPro-SemiBold',
+  },
 }

@@ -7,6 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import React, { useEffect, useRef } from 'react'
 import R from 'res'
 import { TTheme } from 'res/theme'
+import { FoodDetail } from 'screens/foodDetail/foodDetail'
 import HomeScreen from 'screens/Home'
 import { TNavigationParams } from 'types/navigation'
 
@@ -30,6 +31,16 @@ const Navigator = ({ theme }: { theme: TTheme }) => {
           <RootStack.Screen
             component={HomeScreen}
             name={R.routes.SCREEN_HOME}
+            options={{
+              headerShown: false,
+              headerTitleAlign: 'center',
+              headerBackTitleVisible: false,
+            }}
+          />
+
+          <RootStack.Screen
+            component={FoodDetail}
+            name={R.routes.SCREEN_FOOD_DETAIL}
             options={{
               headerShown: false,
               headerTitleAlign: 'center',

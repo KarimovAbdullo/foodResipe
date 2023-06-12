@@ -1,0 +1,49 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      }
+    ],
+  "users":[
+    {
+      "name":"Kristin",
+      "id":1
+    }
+  ],
+   "foods":[
+    {
+      "id":1,
+      "name":"Slicing with fruit",
+      "title":"Easy to make slicng with friut and meet",
+      "gr":650,
+      "callory":799,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/1.png"
+    },
+    {
+      "id":2,
+      "name":"Slicing with fruit",
+      "title":"Easy to make slicng with friut and meet",
+      "gr":650,
+      "callory":799,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/2.png"
+    },
+    {
+      "id":3,
+      "name":"Slicing with fruit",
+      "title":"Easy to make slicng with friut and meet",
+      "gr":650,
+      "callory":799,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/3.png"
+    },
+    {
+      "id":4,
+      "name":"Slicing with fruit",
+      "title":"Easy to make slicng with friut and meet",
+      "gr":650,
+      "callory":799,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/3.png"
+    }
+   ]
+  }

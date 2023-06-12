@@ -1,12 +1,6 @@
-import { IProduct } from 'types/data'
+import { IFoodData } from 'types/data'
 
 export type ProductState = {
-  products: IProduct[]
+  foods: IFoodData[]
   loading: boolean
-  error: string
-  count: number
-  productPage: number
-  next: string | null
-  moreLoading: boolean
-  previuos: string | null
 }

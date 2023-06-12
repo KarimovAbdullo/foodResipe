@@ -2,14 +2,12 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import Reactotron from 'reactotron'
 import { persistStore } from 'redux-persist'
 
-import { categoriesReducer } from './categories/slice'
 import { productReducer } from './product/slice'
 import { userReducer } from './user/slice'
 
 const rootReducer = combineReducers({
   user: userReducer,
   product: productReducer,
-  categories: categoriesReducer,
 })
 
 const setupStore = () => {

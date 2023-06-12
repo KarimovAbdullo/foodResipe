@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const KeyIcon = (props: IProps) => {
-  const { color = 'black' } = props
+  const { color = 'white' } = props
 
   return (
     <Svg width="31" height="30" viewBox="0 0 31 30" fill="none">

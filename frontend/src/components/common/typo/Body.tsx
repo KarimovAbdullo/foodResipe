@@ -1,3 +1,4 @@
+import { useColors } from 'hooks/useColors'
 import { useStyles } from 'hooks/useStyles'
 import React, { ReactElement, ReactNode } from 'react'
 import { StyleProp, Text, TextProps } from 'react-native'
@@ -13,7 +14,7 @@ interface IProps extends TextProps {
     | number
     | (string | number)[]
   center?: boolean
-  size?: 36 | 32 | 24 | 22 | 20 | 18 | 16 | 14 | 13 | 12 | 10 | 8
+  size?: 36 | 32 | 24 | 22 | 20 | 18 | 16 | 14 | 13 | 12 | 10 | 8 | 26
   style?: StyleProp<TextProps>
   numberOfLines?: number
   color?: keyof TThemeColors
@@ -32,7 +33,7 @@ const Body: React.FC<IProps> = ({
   children,
   style,
   numberOfLines,
-  color = 'black',
+  color = 'white',
   center = false,
   opacity = 1,
   light = false,
@@ -45,7 +46,8 @@ const Body: React.FC<IProps> = ({
   ...attributes
 }) => {
   const styles = useStyles(stylesConfig)
-  const colorStyle = { color: color ? 'black' : undefined }
+  const colors = useColors()
+  const colorStyle = { color: color ? colors[color] : undefined }
 
   return (
     <Text
@@ -73,7 +75,7 @@ const Body: React.FC<IProps> = ({
 
 const stylesConfig = createStyles((_colors, fonts) => ({
   default: {
-    fontFamily: fonts.Montserrat.medium,
+    fontFamily: fonts.Maven.medium,
     fontWeight: '400',
   },
   center: {
@@ -83,22 +85,22 @@ const stylesConfig = createStyles((_colors, fonts) => ({
     textAlign: 'right',
   },
   bold: {
-    fontFamily: fonts.Montserrat.bold,
+    fontFamily: fonts.Maven.bold,
   },
   medium: {
     fontWeight: '500',
   },
   semiBold: {
-    fontFamily: fonts.Montserrat.semiBold,
+    fontFamily: fonts.Maven.semiBold,
     fontWeight: '600',
   },
   regular: {
-    fontFamily: fonts.Ubuntu.medium,
+    fontFamily: fonts.Maven.medium,
     fontWeight: '400',
   },
   flex: { flex: 1 },
   light: {
-    fontFamily: fonts.Montserrat.light,
+    fontFamily: fonts.Maven.regular,
   },
 }))
 

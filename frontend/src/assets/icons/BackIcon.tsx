@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const BackIcon = (props: IProps) => {
-  const { color = 'black' } = props
+  const { color = 'white' } = props
 
   return (
     <Svg width="22" height="20" viewBox="0 0 22 20" fill="none">

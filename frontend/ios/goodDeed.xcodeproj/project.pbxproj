@@ -27,6 +27,12 @@
 		A8A52BF04A914FC7AD399355 /* SofiaProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41FC437A042C415496A66123 /* SofiaProMedium.ttf */; };
 		7A3238F71BDE4138A6B48908 /* SofiaProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFBE501F722B49EC8E6B6360 /* SofiaProRegular.ttf */; };
 		9D4645F1348B4AD09A7735CF /* SofiaProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 345264358D6F4F5F8BDC9FCC /* SofiaProSemiBold.ttf */; };
+		9B73979D88BA445EA9A90656 /* MavenPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29AC0F73BB0F4EA69859516A /* MavenPro-Black.ttf */; };
+		E7B9C292372241F5B2961E4A /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99102C5E8628422F9ABDC994 /* MavenPro-Bold.ttf */; };
+		5CE45F5DD3A74E9AADCB72AB /* MavenPro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0276DF90B98D4C1683AECCF8 /* MavenPro-ExtraBold.ttf */; };
+		3B847D49FAA04547A14309CD /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFADCFCDD4E4D0D8DD2D2C4 /* MavenPro-Medium.ttf */; };
+		28EDF7DAAFEF4D96AAC2FCC0 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBDBFD5A59CA443CA2564D45 /* MavenPro-Regular.ttf */; };
+		78BC83970ED642D4B887202D /* MavenPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11429EFD97F140C88BE12490 /* MavenPro-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +76,12 @@
 		41FC437A042C415496A66123 /* SofiaProMedium.ttf */ = {isa = PBXFileReference; name = "SofiaProMedium.ttf"; path = "../src/assets/fonts/SofiaProMedium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		CFBE501F722B49EC8E6B6360 /* SofiaProRegular.ttf */ = {isa = PBXFileReference; name = "SofiaProRegular.ttf"; path = "../src/assets/fonts/SofiaProRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		345264358D6F4F5F8BDC9FCC /* SofiaProSemiBold.ttf */ = {isa = PBXFileReference; name = "SofiaProSemiBold.ttf"; path = "../src/assets/fonts/SofiaProSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		29AC0F73BB0F4EA69859516A /* MavenPro-Black.ttf */ = {isa = PBXFileReference; name = "MavenPro-Black.ttf"; path = "../src/assets/fonts/MavenPro-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		99102C5E8628422F9ABDC994 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; name = "MavenPro-Bold.ttf"; path = "../src/assets/fonts/MavenPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0276DF90B98D4C1683AECCF8 /* MavenPro-ExtraBold.ttf */ = {isa = PBXFileReference; name = "MavenPro-ExtraBold.ttf"; path = "../src/assets/fonts/MavenPro-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDFADCFCDD4E4D0D8DD2D2C4 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; name = "MavenPro-Medium.ttf"; path = "../src/assets/fonts/MavenPro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EBDBFD5A59CA443CA2564D45 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; name = "MavenPro-Regular.ttf"; path = "../src/assets/fonts/MavenPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11429EFD97F140C88BE12490 /* MavenPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "MavenPro-SemiBold.ttf"; path = "../src/assets/fonts/MavenPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,12 @@
 				41FC437A042C415496A66123 /* SofiaProMedium.ttf */,
 				CFBE501F722B49EC8E6B6360 /* SofiaProRegular.ttf */,
 				345264358D6F4F5F8BDC9FCC /* SofiaProSemiBold.ttf */,
+				29AC0F73BB0F4EA69859516A /* MavenPro-Black.ttf */,
+				99102C5E8628422F9ABDC994 /* MavenPro-Bold.ttf */,
+				0276DF90B98D4C1683AECCF8 /* MavenPro-ExtraBold.ttf */,
+				DDFADCFCDD4E4D0D8DD2D2C4 /* MavenPro-Medium.ttf */,
+				EBDBFD5A59CA443CA2564D45 /* MavenPro-Regular.ttf */,
+				11429EFD97F140C88BE12490 /* MavenPro-SemiBold.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -305,6 +323,12 @@
 				A8A52BF04A914FC7AD399355 /* SofiaProMedium.ttf in Resources */,
 				7A3238F71BDE4138A6B48908 /* SofiaProRegular.ttf in Resources */,
 				9D4645F1348B4AD09A7735CF /* SofiaProSemiBold.ttf in Resources */,
+				9B73979D88BA445EA9A90656 /* MavenPro-Black.ttf in Resources */,
+				E7B9C292372241F5B2961E4A /* MavenPro-Bold.ttf in Resources */,
+				5CE45F5DD3A74E9AADCB72AB /* MavenPro-ExtraBold.ttf in Resources */,
+				3B847D49FAA04547A14309CD /* MavenPro-Medium.ttf in Resources */,
+				28EDF7DAAFEF4D96AAC2FCC0 /* MavenPro-Regular.ttf in Resources */,
+				78BC83970ED642D4B887202D /* MavenPro-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
