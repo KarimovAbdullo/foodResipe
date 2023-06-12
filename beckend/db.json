@@ -18,32 +18,37 @@
       "name":"Slicing with fruit",
       "title":"Easy to make slicng with friut and meet",
       "gr":650,
-      "callory":799,
-      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/1.png"
+      "callory":300,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/1.png",
+      "min":22
     },
     {
       "id":2,
-      "name":"Slicing with fruit",
+      "name":"Free thiner",
       "title":"Easy to make slicng with friut and meet",
       "gr":650,
-      "callory":799,
-      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/2.png"
+      "callory":490,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/2.png",
+      "min":10
     },
+
     {
       "id":3,
-      "name":"Slicing with fruit",
+      "name":"White fast meet",
       "title":"Easy to make slicng with friut and meet",
       "gr":650,
-      "callory":799,
-      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/3.png"
+      "callory":900,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/3.png",
+      "min":12
     },
     {
       "id":4,
-      "name":"Slicing with fruit",
+      "name":"Salad lorem",
       "title":"Easy to make slicng with friut and meet",
       "gr":650,
-      "callory":799,
-      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/3.png"
+      "callory":890,
+      "image":"https://github.com/AmirBayat0/Food-Mobile-App-UI-Flutter/blob/main/food_mobile_app_ui/assets/images/3.png",
+      "min":12
     }
    ]
   }
